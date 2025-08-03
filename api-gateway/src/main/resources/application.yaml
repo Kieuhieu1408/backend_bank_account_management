@@ -1,0 +1,44 @@
+server:
+  port: 8888
+
+app:
+  api-prefix: /api/v1
+
+spring:
+  application:
+    name: api-gateway
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:9080/realms/bank_account
+          jwk-set-uri: http://localhost:9080/realms/bank_account/protocol/openid-connect/certs
+  cloud:
+    gateway:
+      routes:
+        - id: account_service
+          uri: http://localhost:8083
+          predicates:
+          - Path=${app.api-prefix}/account-service/**
+          filters:
+          - StripPrefix=2
+        - id: notification_service
+          uri: http://localhost:8082
+          predicates:
+            - Path=${app.api-prefix}/notification/**
+          filters:
+            - StripPrefix=2
+        - id: card_service
+          uri: http://localhost:8084
+          predicates:
+            - Path=${app.api-prefix}/card-service/**
+          filters:
+            - StripPrefix=2
+
+# Cấu hình Keycloak
+keycloak:
+  realm: bank_account
+  auth-server-url: http://localhost:9080
+  resource: klb
+  credentials:
+    secret: qzmX9MnaaNsm37yvDdIqYIPwhu4nrYNy
