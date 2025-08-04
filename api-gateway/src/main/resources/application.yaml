@@ -38,7 +38,7 @@ spring:
 # Cấu hình Keycloak
 keycloak:
   realm: bank_account
-  auth-server-url: http://localhost:9080
+  auth-server-url: http://localhost:8080
   resource: klb
   credentials:
     secret: qzmX9MnaaNsm37yvDdIqYIPwhu4nrYNy

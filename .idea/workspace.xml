@@ -4,7 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfef6dfc-1fe4-4ee4-a7ff-0c5a9b1a03c6" name="Changes" comment="" />
+    <list default="true" id="bfef6dfc-1fe4-4ee4-a7ff-0c5a9b1a03c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/card-service/libs/cqrs.core-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/commands/CreateCardCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/commands/CreateCardResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/CqrsBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/HandlerExecutionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/HandlerNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/Registry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/RequestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/ResponseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/SpringBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/dto/CardRequest/CreateCardRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity/enums/CardStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity/enums/CardType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/event/CardCreatedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/handlers/CreateCardCommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/repository/CardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/utils/CVVGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/utils/CardNumberGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/controller/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/controller/CardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cqrs_core/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cqrs_core/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cqrs_core/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cqrs_core/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cqrs_core/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cqrs_core/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cqrs_core/src/main/java/com/klb/cqrs_core/CqrsCoreApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cqrs_core/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cqrs_core/src/test/java/com/klb/cqrs_core/CqrsCoreApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/card-service/cách triển khai.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/card-service/cách triển khai.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +57,13 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -34,6 +80,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="30RldQIsgIKKN9PlI0aCBgorTGS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,6 +93,13 @@
     &quot;Docker.docker-compose.yml.keycloak: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;Docker.docker-compose.yml.neo4j: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.card_service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.card_service [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cqrs.core [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cqrs.core [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cqrs.core [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cqrs_core [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cqrs_core [install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.notification-service [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.notification-service [install].executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
@@ -54,6 +110,7 @@
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;Spring Boot.AccountServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.CardServiceApplication.executor&quot;: &quot;Run&quot;,
@@ -61,16 +118,18 @@
     &quot;Spring Boot.NotificationServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.ProfileServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kieuhieu2/Desktop/mini project/backend_bank_account _management/card-service/src/main/java/com/klb/card_service/entity&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/hieu/Desktop/Bank Account Management System/backend_bank_account_management/card-service/libs&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -79,6 +138,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/card-service/libs" />
       <recent name="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -97,7 +157,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+  <component name="RunManager" selected="Docker.docker-compose.yml.mongodb: Compose Deployment">
     <configuration name="AccountServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="account-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.klb.account_service.AccountServiceApplication" />
@@ -131,13 +191,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CqrsCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="cqrs_core" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.klb.cqrs_core.CqrsCoreApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NotificationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -161,27 +214,56 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml.keycloak: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="keycloak" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.mongodb: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="mongodb" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Docker.docker-compose.yml.keycloak: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.mongodb: Compose Deployment" />
       <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       <item itemvalue="Spring Boot.CardServiceApplication" />
-      <item itemvalue="Spring Boot.CqrsCoreApplication" />
       <item itemvalue="Spring Boot.NotificationServiceApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.AccountServiceApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml.mongodb: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.keycloak: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Spring Boot.ApiGatewayApplication" />
         <item itemvalue="Spring Boot.AccountServiceApplication" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.27812.49" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.27812.49" />
       </set>
     </attachedChunks>
   </component>
@@ -199,6 +281,9 @@
       <workItem from="1754144632618" duration="10433000" />
       <workItem from="1754229410314" duration="64000" />
       <workItem from="1754231478956" duration="2302000" />
+      <workItem from="1754272440952" duration="261000" />
+      <workItem from="1754272734194" duration="12400000" />
+      <workItem from="1754291387193" duration="917000" />
     </task>
     <servers />
   </component>
