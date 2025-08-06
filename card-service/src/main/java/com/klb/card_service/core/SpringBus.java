@@ -13,8 +13,11 @@ public class SpringBus implements CqrsBus {
         this.registry = registry;
     }
 
+
     @Override
     public <T extends RequestData, R extends ResponseData> R execute(T requestData) {
+        // Lấy class type và ép kiểu một cách an toàn
+        @SuppressWarnings("unchecked")
         Class<T> requestClass = (Class<T>) requestData.getClass();
 
         log.debug("Executing: {}", requestClass.getSimpleName());
@@ -37,4 +40,3 @@ public class SpringBus implements CqrsBus {
         }
     }
 }
-

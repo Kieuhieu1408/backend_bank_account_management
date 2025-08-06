@@ -9,9 +9,8 @@ import com.klb.card_service.service.CardService;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
-import org.springframework.security.access.prepost.PreAuthorize;
+//import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-import com.klb.card_service.dto.*;
 
 @RestController
 @RequestMapping("/cards")
@@ -22,14 +21,10 @@ public class CardController {
     final CqrsBus cqrsBus;
 
     @PostMapping("/")
-    @PreAuthorize("hasRole('ADMIN')")
+//    @PreAuthorize("hasRole('ADMIN')")
     public ApiResponse<CreateCardResponse> createCard(@RequestBody CreateCardRequest request) {
-        // Sinh cardId ở đây (UUID)
-        String cardId = java.util.UUID.randomUUID().toString();
-
-        // Mapping từ DTO sang Command (tùy thuộc vào cấu trúc của CreateCardRequest và CreateCardCommand)
         CreateCardCommand command = new CreateCardCommand(
-                cardId,
+                null,
                 request.getAccountId(),
                 request.getCardHolderName(),
                 request.getCardType(),
@@ -39,7 +34,6 @@ public class CardController {
         // Gửi command qua CQRS Bus để dispatch tới handler
         CreateCardResponse result = cqrsBus.execute(command);
 
-        // Trả về theo response chuẩn
         return ApiResponse.<CreateCardResponse>builder()
                 .result(result)
                 .build();

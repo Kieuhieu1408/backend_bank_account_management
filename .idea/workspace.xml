@@ -5,47 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfef6dfc-1fe4-4ee4-a7ff-0c5a9b1a03c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/card-service/libs/cqrs.core-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/commands/CreateCardCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/commands/CreateCardResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/CqrsBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/HandlerExecutionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/HandlerNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/Registry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/RequestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/ResponseData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/SpringBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/dto/CardRequest/CreateCardRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity/enums/CardStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity/enums/CardType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/event/CardCreatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/handlers/CreateCardCommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/repository/CardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/utils/CVVGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/utils/CardNumberGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/card-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/ApplicationInitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/ApplicationInitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/CorsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/CorsConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/CustomAuthoritiesConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/CustomAuthoritiesConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/CustomJwtDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/CustomJwtDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/JwtAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/controller/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/controller/CardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs_core/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs_core/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs_core/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs_core/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs_core/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs_core/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs_core/src/main/java/com/klb/cqrs_core/CqrsCoreApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs_core/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs_core/src/test/java/com/klb/cqrs_core/CqrsCoreApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/card-service/cách triển khai.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/card-service/cách triển khai.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/Registry.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/Registry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/SpringBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/SpringBus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity/enums/CardType.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity/enums/CardType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/exception/GlobalExceptionHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,52 +59,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.TransactionServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.docker-compose.yml.keycloak: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.docker-compose.yml.neo4j: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.card_service [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.card_service [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.cqrs.core [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.cqrs.core [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.cqrs.core [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.cqrs_core [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.cqrs_core [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.notification-service [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.notification-service [install].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;Database connection parameters found&quot;,
-    &quot;Notification.DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AccountServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.CardServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.IdentityServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.NotificationServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ProfileServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/hieu/Desktop/Bank Account Management System/backend_bank_account_management/card-service/libs&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TransactionServiceApplication.executor": "Run",
+    "Docker.docker-compose.yml.keycloak: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.neo4j: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "Maven.card_service [clean].executor": "Run",
+    "Maven.card_service [install].executor": "Run",
+    "Maven.cqrs.core [clean].executor": "Run",
+    "Maven.cqrs.core [install].executor": "Run",
+    "Maven.cqrs.core [package].executor": "Run",
+    "Maven.cqrs_core [clean].executor": "Run",
+    "Maven.cqrs_core [install].executor": "Run",
+    "Maven.notification-service [clean].executor": "Run",
+    "Maven.notification-service [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found": "Database connection parameters found",
+    "Notification.DoNotAsk-DatabaseConfigFileWatcher.found": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.AccountServiceApplication.executor": "Run",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+    "Spring Boot.CardServiceApplication.executor": "Debug",
+    "Spring Boot.IdentityServiceApplication.executor": "Run",
+    "Spring Boot.NotificationServiceApplication.executor": "Run",
+    "Spring Boot.ProfileServiceApplication.executor": "Run",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/hieu/Desktop/Bank Account Management System/backend_bank_account_management/card-service/libs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -157,7 +129,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml.mongodb: Compose Deployment">
+  <component name="RunManager" selected="Spring Boot.CardServiceApplication">
     <configuration name="AccountServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="account-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.klb.account_service.AccountServiceApplication" />
@@ -251,9 +223,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml.mongodb: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml.keycloak: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Spring Boot.ApiGatewayApplication" />
         <item itemvalue="Spring Boot.AccountServiceApplication" />
       </list>
@@ -284,6 +256,8 @@
       <workItem from="1754272440952" duration="261000" />
       <workItem from="1754272734194" duration="12400000" />
       <workItem from="1754291387193" duration="917000" />
+      <workItem from="1754303780155" duration="102000" />
+      <workItem from="1754376384397" duration="6994000" />
     </task>
     <servers />
   </component>
@@ -297,6 +271,54 @@
           <url>file://$PROJECT_DIR$/account-service/src/main/java/com/klb/account_service/service/impl/UserService.java</url>
           <line>156</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/controller/CardController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/SpringBus.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/SpringBus.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/SpringBus.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/handlers/CreateCardCommandHandler.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/handlers/CreateCardCommandHandler.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/SpringBus.java</url>
+          <line>17</line>
+          <properties class="com.klb.card_service.core.SpringBus" method="execute">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/handlers/CreateCardCommandHandler.java</url>
+          <line>34</line>
+          <properties class="com.klb.card_service.handlers.CreateCardCommandHandler" method="handle">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
