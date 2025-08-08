@@ -9,7 +9,7 @@ import com.klb.card_service.service.CardService;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
-//import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -21,7 +21,7 @@ public class CardController {
     final CqrsBus cqrsBus;
 
     @PostMapping("/")
-//    @PreAuthorize("hasRole('ADMIN')")
+    @PreAuthorize("hasRole('ADMIN')")
     public ApiResponse<CreateCardResponse> createCard(@RequestBody CreateCardRequest request) {
         CreateCardCommand command = new CreateCardCommand(
                 null,

@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
-        <module name="cqrs.core" />
       </profile>
       <profile name="Annotation profile for card_service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -37,6 +36,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cqrs.core" target="17" />
       <module name="cqrs_core" target="21" />
       <module name="file-service" target="21" />
       <module name="profile-service" target="21" />

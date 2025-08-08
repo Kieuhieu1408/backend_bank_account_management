@@ -66,7 +66,7 @@ public class CreateCardCommandHandler implements Handler<CreateCardCommand, Crea
 
             return CreateCardResponse.success(
                     request.getCardId(),
-                    maskCardNumber(cardNumber),
+                    cardNumber,
                     expiryDate
             );
 
@@ -115,12 +115,12 @@ public class CreateCardCommandHandler implements Handler<CreateCardCommand, Crea
         return calendar.getTime();
     }
 
-    private String maskCardNumber(String cardNumber) {
-        if (cardNumber == null || cardNumber.length() < 4) {
-            return "****";
-        }
-        return "**** **** **** " + cardNumber.substring(cardNumber.length() - 4);
-    }
+//    private String maskCardNumber(String cardNumber) {
+//        if (cardNumber == null || cardNumber.length() < 4) {
+//            return "****";
+//        }
+//        return "**** **** **** " + cardNumber.substring(cardNumber.length() - 4);
+//    }
 
     // Custom exception
     public static class ValidationException extends RuntimeException {
