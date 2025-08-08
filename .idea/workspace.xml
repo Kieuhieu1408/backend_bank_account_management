@@ -5,60 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfef6dfc-1fe4-4ee4-a7ff-0c5a9b1a03c6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/src/main/java/com/cqrs/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/src/main/java/com/cqrs/business/user/command/CreateUserCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/src/main/java/com/cqrs/business/user/handler/CreateUserCommandHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/src/main/java/com/cqrs/business/user/handler/GetUserQueryHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/src/main/java/com/cqrs/business/user/query/GetUserQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/src/main/java/com/cqrs/command/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/src/main/java/com/cqrs/handler/CommandHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/src/main/java/com/cqrs/handler/QueryHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/src/main/java/com/cqrs/mediator/ConcreteMediator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/src/main/java/com/cqrs/mediator/Mediator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS-IN-JAVA-master/src/main/java/com/cqrs/query/Query.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/ApplicationInitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/ApplicationInitConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/CorsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/CorsConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/CustomAuthoritiesConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/CustomAuthoritiesConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/CustomJwtDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/CustomJwtDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/JwtAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/JwtAuthenticationEntryPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/controller/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/controller/CardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/handlers/CreateCardCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/handlers/CreateCardCommandHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/src/main/java/com/klb/cqrs/core/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/src/main/java/com/klb/cqrs/core/commands/BaseCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/src/main/java/com/klb/cqrs/core/commands/CommandHandlerMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/src/main/java/com/klb/cqrs/core/domain/AggregateRoot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/src/main/java/com/klb/cqrs/core/domain/BaseEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/src/main/java/com/klb/cqrs/core/events/BaseEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/src/main/java/com/klb/cqrs/core/events/EventModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/src/main/java/com/klb/cqrs/core/exceptions/AggregateNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/src/main/java/com/klb/cqrs/core/exceptions/ConcurrencyException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/src/main/java/com/klb/cqrs/core/handlers/EventSourcingHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/src/main/java/com/klb/cqrs/core/infrastructure/CommandDispatcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/src/main/java/com/klb/cqrs/core/infrastructure/EventStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/src/main/java/com/klb/cqrs/core/infrastructure/QueryDispatcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/src/main/java/com/klb/cqrs/core/messages/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/src/main/java/com/klb/cqrs/core/producers/EventProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/src/main/java/com/klb/cqrs/core/queries/BaseQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cqrs.core/cqrs.core/src/main/java/com/klb/cqrs/core/queries/QueryHandlerMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-service/libs/cqrs.core-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/card-service/cách triển khai.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +91,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -170,7 +119,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccountServiceApplication">
+  <component name="RunManager" selected="Spring Boot.CardServiceApplication">
     <configuration name="AccountServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="account-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.klb.account_service.AccountServiceApplication" />
@@ -264,8 +213,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.AccountServiceApplication" />
         <item itemvalue="Spring Boot.ApiGatewayApplication" />
+        <item itemvalue="Spring Boot.AccountServiceApplication" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml.keycloak: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml.mongodb: Compose Deployment" />
@@ -301,6 +250,8 @@
       <workItem from="1754376384397" duration="9307000" />
       <workItem from="1754531492647" duration="2327000" />
       <workItem from="1754540433711" duration="7425000" />
+      <workItem from="1754637510097" duration="761000" />
+      <workItem from="1754638297642" duration="894000" />
     </task>
     <servers />
   </component>
