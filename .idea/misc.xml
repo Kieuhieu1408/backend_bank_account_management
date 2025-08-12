@@ -12,16 +12,15 @@
         <option value="$PROJECT_DIR$/transaction-service/pom.xml" />
         <option value="$PROJECT_DIR$/account-service/pom.xml" />
         <option value="$PROJECT_DIR$/card_service/pom.xml" />
-        <option value="$PROJECT_DIR$/card-service/pom.xml" />
         <option value="$PROJECT_DIR$/cqrs_core/pom.xml" />
         <option value="$PROJECT_DIR$/cqrs.core/cqrs.core/pom.xml" />
+        <option value="$PROJECT_DIR$/card-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/file-service/pom.xml" />
         <option value="$PROJECT_DIR$/profile-service/pom.xml" />
-        <option value="$PROJECT_DIR$/transaction-service/pom.xml" />
       </set>
     </option>
   </component>
