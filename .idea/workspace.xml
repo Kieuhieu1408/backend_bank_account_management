@@ -5,72 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfef6dfc-1fe4-4ee4-a7ff-0c5a9b1a03c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/klb/transactionService/domain/repositories/CardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/klb/transactionService/domain/repositories/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/klb/transactionService/domain/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/klb/transactionService/infrastructure/persistence/adapters/CardRepositoryAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/klb/transactionService/infrastructure/persistence/entities/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/klb/transactionService/infrastructure/persistence/mappers/CardMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/docs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/general rules.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/CardServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/commands/CreateCardCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/commands/CreateCardResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/ApplicationInitConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/CorsConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/CustomAuthoritiesConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/CustomJwtDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/JwtAuthenticationEntryPoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/configuration/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/constant/PredefinedRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/controller/CardController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/CqrsBus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/Handler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/HandlerExecutionException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/HandlerNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/Registry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/RequestData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/ResponseData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/core/SpringBus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/dto/ApiResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/dto/CardRequest/CreateCardRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity/InvalidatedToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity/Permission.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity/enums/CardStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity/enums/CardType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/event/CardCreatedEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/exception/AppException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/exception/ErrorCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/exception/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/handlers/CreateCardCommandHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/repository/CardRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/repository/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/service/CardService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/service/impl/CardServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/utils/CVVGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/utils/CardNumberGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/main/resources/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/src/test/java/com/klb/card_service/CardServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/card-service/Cấu trức dự án.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/transaction-service/Cấu trức dự án.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/card-service/cách triển khai 1 api sử dụng handler, cqrs và mediator.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/transaction-service/cách triển khai 1 api sử dụng handler, cqrs và mediator.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/card-service/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/transaction-service/image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/com/klb/transaction_service/TransactionServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/test/java/com/klb/transaction_service/TransactionServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +22,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -118,17 +58,8 @@
     "Docker.docker-compose.yml.keycloak: Compose Deployment.executor": "Run",
     "Docker.docker-compose.yml.neo4j: Compose Deployment.executor": "Run",
     "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
-    "Maven.card_service [clean].executor": "Run",
-    "Maven.card_service [install].executor": "Run",
-    "Maven.cqrs.core [clean].executor": "Run",
-    "Maven.cqrs.core [install].executor": "Run",
-    "Maven.cqrs.core [package].executor": "Run",
-    "Maven.cqrs_core [clean].executor": "Run",
-    "Maven.cqrs_core [install].executor": "Run",
     "Maven.notification-service [clean].executor": "Run",
     "Maven.notification-service [install].executor": "Run",
-    "Maven.transaction-service [clean].executor": "Run",
-    "Maven.transaction-service [install].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found": "Database connection parameters found",
     "Notification.DoNotAsk-DatabaseConfigFileWatcher.found": "true",
@@ -138,22 +69,22 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.AccountServiceApplication.executor": "Run",
     "Spring Boot.ApiGatewayApplication.executor": "Run",
     "Spring Boot.CardServiceApplication.executor": "Run",
     "Spring Boot.IdentityServiceApplication.executor": "Run",
     "Spring Boot.NotificationServiceApplication.executor": "Run",
     "Spring Boot.ProfileServiceApplication.executor": "Run",
-    "Spring Boot.TransactionServiceApplication.executor": "Run",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/hieu/Desktop/Bank Account Management System/backend_bank_account_management/card-service/libs",
+    "last_opened_file_path": "/Users/kieuhieu2/Desktop/mini project/backend_bank_account _management/card-service/src/main/java/com/klb/card_service/entity",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
@@ -166,7 +97,6 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/card-service/libs" />
       <recent name="$PROJECT_DIR$/card-service/src/main/java/com/klb/card_service/entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -185,7 +115,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TransactionServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
     <configuration name="AccountServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="account-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.klb.account_service.AccountServiceApplication" />
@@ -212,6 +142,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CardServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="card_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.klb.card_service.CardServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CqrsCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cqrs_core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.klb.cqrs_core.CqrsCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NotificationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -221,15 +165,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransactionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="TransactionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="transaction-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.klb.transactionService.TransactionServiceApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.klb.transactionService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.klb.transaction_service.TransactionServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -248,34 +186,20 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-compose.yml.keycloak: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="keycloak" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-      <item itemvalue="Docker.docker-compose.yml.keycloak: Compose Deployment" />
-      <item itemvalue="Spring Boot.NotificationServiceApplication" />
-      <item itemvalue="Spring Boot.AccountServiceApplication" />
-      <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.TransactionServiceApplication" />
+      <item itemvalue="Spring Boot.CardServiceApplication" />
+      <item itemvalue="Spring Boot.CqrsCoreApplication" />
+      <item itemvalue="Spring Boot.NotificationServiceApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.AccountServiceApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.TransactionServiceApplication" />
-        <item itemvalue="Spring Boot.AccountServiceApplication" />
         <item itemvalue="Spring Boot.ApiGatewayApplication" />
+        <item itemvalue="Spring Boot.AccountServiceApplication" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml.keycloak: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -300,19 +224,15 @@
       <workItem from="1754144530753" duration="24000" />
       <workItem from="1754144632618" duration="10433000" />
       <workItem from="1754229410314" duration="64000" />
-      <workItem from="1754231478956" duration="2302000" />
-      <workItem from="1754272440952" duration="261000" />
-      <workItem from="1754272734194" duration="12400000" />
-      <workItem from="1754291387193" duration="917000" />
-      <workItem from="1754303780155" duration="102000" />
-      <workItem from="1754376384397" duration="9307000" />
-      <workItem from="1754531492647" duration="2327000" />
-      <workItem from="1754540433711" duration="7425000" />
-      <workItem from="1754637510097" duration="761000" />
-      <workItem from="1754638297642" duration="2953000" />
-      <workItem from="1754879517564" duration="2423000" />
-      <workItem from="1754963861563" duration="2430000" />
-      <workItem from="1754969314964" duration="7192000" />
+      <workItem from="1754231478956" duration="3057000" />
+      <workItem from="1754400731264" duration="2622000" />
+      <workItem from="1754716766009" duration="599000" />
+      <workItem from="1755043025233" duration="599000" />
+      <workItem from="1755157926157" duration="1010000" />
+      <workItem from="1755179087314" duration="599000" />
+      <workItem from="1755417817095" duration="1569000" />
+      <workItem from="1755419394022" duration="146000" />
+      <workItem from="1755419569916" duration="3092000" />
     </task>
     <servers />
   </component>
@@ -326,35 +246,6 @@
           <url>file://$PROJECT_DIR$/account-service/src/main/java/com/klb/account_service/service/impl/UserService.java</url>
           <line>156</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/card-service/src/main/java/com/klb/transactionService/presentation/controller/CardController.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/card-service/src/main/java/com/klb/transactionService/core/SpringBus.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/card-service/src/main/java/com/klb/transactionService/core/SpringBus.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/card-service/src/main/java/com/klb/transactionService/core/SpringBus.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/card-service/src/main/java/com/klb/transactionService/core/SpringBus.java</url>
-          <line>17</line>
-          <properties class="com.klb.transactionService.core.SpringBus" method="execute">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
